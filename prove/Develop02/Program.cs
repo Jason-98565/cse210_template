@@ -10,7 +10,6 @@ class Program
         string _selection;
         Journal journal = new Journal();
         List<string> _promptList = new List<string>();
-        int i = 0;
         do
         {
         Console.WriteLine("Welcome to the Journal");

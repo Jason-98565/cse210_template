@@ -6,7 +6,6 @@ public class Entry
     public string _currentPrompt;
     public string _response;
     
-    
     override
     public string ToString()
     {
