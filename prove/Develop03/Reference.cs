@@ -14,6 +14,6 @@ public class Reference
     public void display_ref()
     {
         string Value = ToString();
-        Console.Write(Value);
+        Console.WriteLine(Value);
     }
 }

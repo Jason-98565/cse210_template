@@ -22,13 +22,14 @@ public class Passage
             w0rd.Hide_word();
         }
     }
-    public void Wrdss()
+    public string Wrdss()
     {
         string x = "";
         for (int i = 0; i < words.Count; i++)
         {
-            x = x + " " + words[i];
+            x = x + words[i] + " ";
         }
         Console.WriteLine(x);
+        return x;
     }
 }

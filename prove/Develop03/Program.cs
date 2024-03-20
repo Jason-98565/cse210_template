@@ -16,12 +16,24 @@ class Program
         Console.WriteLine("Press enter or type 'quit' to finish");
         do
         {
+            bool existance = false;
             Console.Clear();
             reference.display_ref();
-            passage.Wrdss();
+            string check = passage.Wrdss();
+            for (int i = 0; i < check.Length; i++)
+            {
+                if ((check[i] != '_') && (check[i] != ' '))
+                {
+                    existance = true;
+                } 
+            }
             Console.WriteLine("Press enter or type 'quit' to finish");
             passage.hide_words();
             input = Console.ReadLine();
+            if (existance == false)
+            {
+                input = "quit";
+            }
         }
         while (input != "quit");
     }
