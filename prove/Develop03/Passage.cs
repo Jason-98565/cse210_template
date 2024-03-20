@@ -16,10 +16,10 @@ public class Passage
     {
         Random ran = new Random();
         int value = ran.Next(0,words.Count);
-        Word w4rd = words[value];
-        if (w4rd.flag == false)
+        Word w0rd = words[value];
+        if (w0rd.flag == false)
         {
-            w4rd.Hide_word();
+            w0rd.Hide_word();
         }
     }
     public void Wrdss()

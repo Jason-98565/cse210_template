@@ -12,8 +12,7 @@ class Program
         reference._Book = "Proverbs";
         reference._Chap = "3";
         reference._Verse = "5-6";
-        reference.display_ref();
-        
+
         Console.WriteLine("Press enter or type 'quit' to finish");
         do
         {
